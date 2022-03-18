@@ -7,6 +7,6 @@ class CounterNotifier extends StateNotifier<Counter> {
   static const _initialValue = Counter(count: 0);
 
   void increment() {
-    state = Counter(count: state.count + 1);
+    state = state.copyWith(count: state.count + 1);
   }
 }
