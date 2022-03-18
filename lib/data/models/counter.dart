@@ -14,7 +14,7 @@ class Counter with _$Counter {
 
   const Counter._();
 
-  /// Create [FullArticle] from JSON object.
+  /// Create [Counter] from JSON object.
   factory Counter.fromJson(final Map<String, dynamic> json) =>
       _$CounterFromJson(json);
 }
